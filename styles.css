@@ -1,0 +1,135 @@
+
+header {
+    width: 100%; /* يجعل الـ header يغطي عرض الصفحة بالكامل */
+    height: 100px; /* التحكم في ارتفاع الـ header */
+    background-color: #58246a; /* لون الخلفية */
+    display: flex; /* استخدام Flexbox لمحاذاة المحتوى داخله */
+    justify-content: center; /* محاذاة المحتوى أفقيًا */
+    align-items: center; /* محاذاة المحتوى عموديًا */
+    text-align: center; /* محاذاة النص في الوسط */
+    color: rgb(92, 89, 94);/* لون النص  */
+    
+    font-size: 24px;  /*حجم الخط */
+   padding: 40px;  /* هوامش داخلية */
+    background-image: url('fb02020ef81adf1409a8c7745dd40854.jpg');
+    background-size: cover; /* لتغطية العنصر بالكامل */
+    background-position: center; /* تحديد موضع الصورة */
+   
+    padding: 60px 20px;
+    text-align: center;
+}
+  h1 {
+    color: #030303; /* لون النص للعناوين*/
+    background-color: #934caf;
+  }
+    header nav ul {
+    list-style-type: none; /* إزالة النقاط */
+    padding: 0;
+    align-items: center;/* محاذاة المحتوى عموديًا */
+    display: flex; /* ترتيب العناصر أفقيًا */
+    justify-content: center; /* محاذاة العناصر في الوسط */
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none; /* إزالة التسطير */
+    padding: 10px 15px;
+    transition: background-color 0.3s; /* تأثير عند التحويم */
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* خلفية شفافة عند التحويم */
+}
+
+
+
+body, html {
+   
+    place-items: center;
+    display: grid;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* يجعل الصفحة تمتد لكامل الطول */
+    direction: rtl; /* اتجاه النص من اليمين إلى اليسار */
+    text-align: right; /* محاذاة النص لليمين بشكل افتراضي */
+    background-color: #d3cbd7;
+    
+}
+
+h2 {
+    color: #030303; /* لون النص للعناوين*/
+    background-color: #934caf;
+    padding: 15px 32px; /* الهوامش الداخلية */
+  
+}
+
+
+p {
+    color: #000000; /* لون النص للفقرة) */
+   
+}
+section {
+    display: grid;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+#myButton {
+    background-color: #8c5ca0; 
+    color: white; /* لون النص */
+    border: none; /* إزالة الحدود */
+    padding: 15px 32px; /* الهوامش الداخلية */
+    text-align: center; /* محاذاة النص */
+    text-decoration: none; /* إزالة التسطير */
+    display: inline-block; /* عرض الزر بشكل متجاوب */
+    font-size: 16px; /* حجم الخط */
+    margin: 4px 2px; /* الهوامش الخارجية */
+    cursor: pointer; /* تغيير شكل المؤشر عند المرور فوق الزر */
+    border-radius: 4px; /* زوايا دائرية */
+    transition: background-color 0.3s; /* تأثير الانتقال */
+}
+
+#myButton:hover {
+    background-color: #45a049; /* لون مختلف عند التحويم */
+}
+
+
+img {
+    border-radius: 10px; /* حواف دائرية */
+    box-shadow: 0px 4px 8px rgba(135, 12, 192, 0.499); /* إضافة ظل */
+    width: 300px;
+    height: auto; /* المحافظة على نسبة الأبعاد */
+}
+
+.container { /*لتنسيق الصور المتعددة */
+    display: flex;
+    gap: 10px;
+}
+
+.container img {
+    width: 200px;
+    height: auto;
+}
+.rounded-bg {
+    background-color: #934caf;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px; /* زوايا دائرية */
+
+}
+
+#datetime {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
